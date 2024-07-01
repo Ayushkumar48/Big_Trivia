@@ -119,7 +119,9 @@
 </main>
 
 <style>
+  @import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
   main {
+    font-family: "Playwrite DE Grund", cursive;
     padding-top: 5vh;
   }
   h3 {

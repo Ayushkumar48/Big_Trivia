@@ -10,6 +10,11 @@
 </main>
 
 <style>
+  :global(html, body) {
+    height: 100%;
+    margin: 0;
+  }
+
   p {
     padding-top: 15vh;
     text-align: center;
