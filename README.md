@@ -1,48 +1,97 @@
-# Svelte + Vite
+# Big Trivia
 
-This template should help get you started developing with Svelte in Vite.
+Welcome to **Big Trivia** – a trivia game application built using Svelte, Tailwind CSS, and Flowbite UI library.
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Need an official Svelte framework?
+## Introduction
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+**Big Trivia** is a fun and interactive trivia game application that challenges your knowledge on various topics. The application is designed with a sleek and modern UI, ensuring an engaging user experience.
 
-## Technical considerations
+Check out the live version of the application [here](https://bigtrivia.vercel.app/).
 
-**Why use this over SvelteKit?**
+## Features
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+- Multiple categories of trivia questions
+- Real-time score tracking
+- Responsive and user-friendly interface
+- Smooth transitions and animations
+- Intuitive navigation and layout
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+## Technologies Used
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+- **Svelte:** A modern JavaScript framework for building fast and responsive web applications.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **Flowbite UI:** A component library built on top of Tailwind CSS for faster development.
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+## Installation
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+To get a local copy up and running, follow these steps:
 
-**Why include `.vscode/extensions.json`?**
+1. Clone the repository:
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+   ```bash
+   git clone https://github.com/Ayushkumar48/Big_Trivia.git
+   ```
 
-**Why enable `checkJs` in the JS template?**
+2. Navigate to the project directory:
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+   ```bash
+   cd Big_Trivia
+   ```
 
-**Why is HMR not preserving my local component state?**
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
+## Usage
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+To start the development server, run:
 
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```bash
+npm run dev
 ```
-# Big_Trivia
+
+Open [http://localhost:5000](http://localhost:5000) in your browser to view the application.
+
+## Deployment
+
+The application is deployed on Vercel. You can visit the deployed version [here](https://bigtrivia.vercel.app/).
+
+To deploy your own version, follow these steps:
+
+1. Push your code to a GitHub repository.
+2. Sign up for a free Vercel account.
+3. Import your repository on Vercel.
+4. Vercel will automatically deploy your project and provide you with a live URL.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project.
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the Branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Ayush Kumar - [GitHub](https://github.com/Ayushkumar48) - [LinkedIn](https://www.linkedin.com/in/Ayushkumar48/)
+
+Project Link: [https://github.com/Ayushkumar48/Big_Trivia](https://github.com/Ayushkumar48/Big_Trivia)
