@@ -75,7 +75,7 @@
     <Button
       color="green"
       class="generate-btn"
-      on:click={() => fetchQuestions(3)}>hard and Big Quiz</Button
+      on:click={() => fetchQuestions(3)}>Hard and Big Quiz</Button
     >
     <Button
       color="green"
