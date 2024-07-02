@@ -16,6 +16,7 @@
   }
 
   p {
+    font-family: "Playwrite DE Grund", cursive;
     padding-top: 15vh;
     text-align: center;
     font-size: 1.5vw;
