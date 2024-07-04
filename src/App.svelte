@@ -4,21 +4,13 @@
 </script>
 
 <main>
-  <Navbar></Navbar>
-  <p>Click a button to get a new quiz!!</p>
-  <Questions></Questions>
+  <Navbar />
+  <Questions />
 </main>
 
 <style>
   :global(html, body) {
     height: 100%;
     margin: 0;
-  }
-
-  p {
-    font-family: "Playwrite DE Grund", cursive;
-    padding-top: 15vh;
-    text-align: center;
-    font-size: 1.5vw;
   }
 </style>
